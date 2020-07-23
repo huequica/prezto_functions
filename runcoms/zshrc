@@ -86,9 +86,6 @@ eval "$(rbenv init -)"
 export PATH="/usr/local/opt/bison@2.7/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
-alias d-c='docker-compose'
-alias beatoraja='~/Documents/beatoraja0.7.6/beatoraja-config.command'
-
 # TabName
 function precmd() {
   # カレントディレクトリを $HOME を ~ として表示

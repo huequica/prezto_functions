@@ -6,7 +6,19 @@
 #
 
 # JetBrainsIDE CLI
-export PATH="~/.JetBrainsCLI:$PATH"
+export PATH=~/.JetBrainsCLI:$PATH
+
+# Android Debugging Bridge
+export PATH=~/Library/Android/sdk/platform-tools:$PATH
+
+# yarn global installed packages
+export PATH=~/.config/yarn/global:$PATH
+
+# `d-c` -> `docker-compose`
+alias d-c='docker-compose'
+
+# beatoraja alias
+alias beatoraja='~/Documents/beatoraja0.7.9/beatoraja-config.command'
 
 # Ensure that a non-login, non-interactive shell has a defined environment.
 if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
